@@ -18,6 +18,8 @@ body {
 .hlavni { 
 	background-color: #f1c40f; 
 	order: 2;
+	flex-grow: 1;
+
 }
 
 .levy { 
