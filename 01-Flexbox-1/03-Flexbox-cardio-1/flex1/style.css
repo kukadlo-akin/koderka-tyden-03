@@ -8,10 +8,37 @@
     min-height: 100px;
 }
 
-.prvni { background-color: #2ecc71;}
-.druhy { background-color: #f1c40f;}
-.treti { background-color: #3498db;}
-.ctvrty { background-color: #e74c3c;}
+.kontejner {
+    display: flex;
+}
+
+.prvni {
+    background-color: #2ecc71;
+    order: 3;
+    flex-shrink: 0;
+    flex-basis: 25%;
+}
+
+.druhy { 
+    background-color: #f1c40f;
+    order: 1;
+    flex-shrink: 0;
+    flex-basis: 25%;
+}
+
+.treti { 
+    background-color: #3498db;
+    order: 4;
+    flex-shrink: 0;
+    flex-basis: 25%;
+}
+
+.ctvrty { 
+    background-color: #e74c3c;
+    order: 2;
+    flex-shrink: 0;
+    flex-basis: 25%;
+}
 
 .kontejner {
     padding: 10px;
