@@ -9,10 +9,31 @@ body {
 	padding: 20px;
 }
 
-.hlavicka	{ background-color: #2ecc71; }
-.hlavni		{ background-color: #f1c40f; }
-.levy		{ background-color: #3498db; }
-.pravy		{ background-color: #e74c3c; }
+.kontejner {
+		display: flex;
+}
+
+.hlavicka { background-color: #2ecc71; }
+
+.hlavni { 
+	background-color: #f1c40f; 
+	order: 2;
+}
+
+.levy { 
+	background-color: #3498db;
+	flex-basis: 25%;
+	flex-shrink: 0;
+	order: 1;
+}
+
+.pravy { 
+	background-color: #e74c3c;
+	flex-basis: 20%;
+	flex-shrink: 0;
+	order: 3;
+}
+
 .paticka	{ background-color: #9b59b6; }
 
 /* ---------------------------------------------------- */
